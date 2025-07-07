@@ -1,4 +1,4 @@
-<h1 align="center">Hey 👋 I'm Michael Tettey</h1>
+<h1 align="center">Hey  I'm Michael Tettey</h1>
 <h3 align="center">Machine Learning Engineer | PhD Candidate | AI for Social Impact | Founder @AfroML Solutions</h3>
 
 ###
@@ -50,33 +50,47 @@
 </div>
 
 ###
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</div>
+
+<!-- Alternative: If you want to set up your own snake animation, you'll need to:
+1. Go to your profile repository (Syded74/Syded74)
+2. Create .github/workflows/snake.yml file with this content:
+
+name: Generate snake animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk@master
+        with:
+          github_user_name: Syded74
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+Then uncomment and use this instead:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Syded74/Syded74/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Syded74/Syded74/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Syded74/Syded74/output/github-contribution-grid-snake.svg">
 </picture>
-
-###
-
-<div align="center">
-  <h3>🔬 Current Research & Projects</h3>
-  <p>🎓 PhD in Machine Learning - Spatiotemporal Weather Forecasting in Ghana</p>
-  <p>🚀 Building AI solutions at AfroML Solutions</p>
-  <p>🌍 Leading Digital Transformation at Human Rights Commission Africa</p>
-  <p>🛰️ Developing CubeSatNet-Lite for satellite imagery classification</p>
-  <p>🏥 Creating Explainable AI models for healthcare applications</p>
-</div>
-
-###
-
-<div align="center">
-  <h3>💡 Fun Facts</h3>
-  <p>🌟 Achieved 99.88% accuracy in lightweight CNN models</p>
-  <p>🎯 Reduced system interruptions by 20% at GT Bank</p>
-  <p>📊 Improved data accuracy by 30% through ML automation</p>
-  <p>👥 Mentoring 4 girls in data science and machine learning</p>
-  <p>🌱 Active climate action volunteer and DataGlobal Hub Ambassador</p>
-</div>
+-->
 
 ###
 
