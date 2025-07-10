@@ -1,5 +1,5 @@
 <h1 align="center">Hey  I'm Michael Tettey</h1>
-<h3 align="center">Machine Learning Engineer | PhD Candidate | AI for Social Impact | Founder @AfroML Solutions</h3>
+<h3 align="center">Machine Learning Engineer | AI for Social Impact | Founder @AfroML Solutions</h3>
 
 ###
 <div align="center">
